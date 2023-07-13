@@ -1,0 +1,86 @@
++ revisar si esta instalado
+ git --version
+
+*crear un repositorio local de git
+git init
+
+* crear un usuario
+git config --global user.name Ricardo
+git config --global user.git config user.email  ricardo.@gmail.com
+
+* verificar la configuracion del usuario 
+
+git config user.name 
+git config user.email
+
+* para agregar un archivo al repositorio
+git add index.html
+git add request.js
+
+* Registramos cambios en Git
+git commit -m "Subien do el archivo"
+
+
+guardar mis cambios y guarda la vercion *es para guardar respaldos(
+commit -m "Subien do el archivo"
+
+--------------
+agregar todos los archivos simultanea mente 
+git add .
+
+Realizar commit a todos los cambios
+git commint -a -m "hasta aqui funciona el modulo login..."
+
+GIT HUB
+CREAR UNA CUENTA EN 
+
+verificar si existe configuracion en el proyecto un repositorio remoto
+git remote -v
+
+agregar un repositorio remoto 
+git remote add origin URL-repositorio-remoto
+
+---------------------------------------
+Ver los commits registrados *ver todos los commits (
+git log
+
+---------------------------------------
+cambiar de version en Git o contexto
+
+git checkout  y el id de commit
+
+
+git commits "texto"
+
+git remote -v -> visualizar los repositorios remotos 
+
+----------------------------------------------------
+https://git-scm.com/book/es/v2
+----------------------------------------------------
+
+
+crear una cuenta de githut crear un repositori para 
+------------------------------------------------
+
+git remote add origen y el link de la platafora
+------------------------------------------------
+subir los cambioa y vajar el archivo
+pull
+push ***    
+ 
+ 
+git push -u  nombre_del_repositorio main -> subir archivo para guardar archivos en githut
+
+examen el dia lunes
+
+
+
+
+
+
+
+
+
+
+
+
